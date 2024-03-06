@@ -1,4 +1,4 @@
-package io.github.mat3e;
+package io.github.xwasu;
 
 import static org.junit.Assert.assertTrue;
 
