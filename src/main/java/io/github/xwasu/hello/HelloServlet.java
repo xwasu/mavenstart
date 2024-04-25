@@ -1,4 +1,4 @@
-package io.github.xwasu;
+package io.github.xwasu.hello;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

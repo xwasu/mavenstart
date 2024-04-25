@@ -1,4 +1,4 @@
-package io.github.xwasu;
+package io.github.xwasu.lang;
 
 import org.hibernate.annotations.GenericGenerator;
 
@@ -9,7 +9,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "languages")
-class Lang {
+public class Lang {
     @Id
     @GeneratedValue(generator = "increment")
     @GenericGenerator(name = "inc", strategy = "increment")
